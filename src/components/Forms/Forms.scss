@@ -1,0 +1,42 @@
+.input_form{
+    width: 100%;
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        p{
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 400;
+            color: #737373;
+            margin:  10px 0;
+        }
+
+        input{
+            width: 100%;
+            display: block;
+            margin: 0;
+            outline: none;
+            overflow: hidden;
+            padding: 9px 0 7px 8px;
+            text-overflow: ellipsis;
+            background-color: rgb(250, 250, 250);
+            border: var(--border);
+            border-radius: 3px;
+            font-size: 14px;
+            line-height: 18px;
+            
+            &::placeholder{
+                font-size: 12px;
+            }
+        }
+
+        button{
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+}

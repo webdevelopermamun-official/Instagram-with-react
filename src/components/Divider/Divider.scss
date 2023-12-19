@@ -1,0 +1,19 @@
+.divider{
+    width: 100%;
+    border-top: var(--border);
+    margin: 20px 0;
+    position: relative;
+
+    &::after{
+        content: "Or";
+        width: 25px;
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 45%;
+        top: -14px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+    }
+}

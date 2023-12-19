@@ -1,0 +1,78 @@
+.instagram_auth_signin{
+    padding: 90px 0 120px;
+
+
+    .instagram_auth_signin_container{
+        width: 765px;
+        margin: 0 auto;
+        display: flex;
+        gap: 30px;
+
+
+        .instagram_auth_signin_left{
+            flex-basis: 380.32px;
+        }
+        .instagram_auth_signin_right{
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .signin_area{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: var(--border);
+                padding: 45px 40px 20px;
+                width: 100%;
+                border-radius: 6px;
+
+                .logo{
+                    padding-bottom: 30px;
+                    img{
+                        width: 175px;
+                    }
+                }
+                .other_login{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    a{
+                        display: block;
+                        color: rgb(0, 55, 107);
+                        font-weight: 400;
+                        font-size: 12px;
+
+                    }
+                    .fb_login_button{
+                        color: #385185;
+                        font-size: 14px;
+                        line-height: 18px;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                        .fb_logo{
+                            font-size: 100%;
+                            margin-right: 8px;
+                            position: relative;
+                            top: 3px;
+                            vertical-align: baseline;
+                            background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+                            background-repeat: no-repeat;
+                            background-position: -414px -259px;
+                            height: 16px;
+                            width: 16px;
+                            display: inline-block;
+                            
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

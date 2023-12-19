@@ -1,0 +1,45 @@
+.link_signup{
+    border: var(--border);
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    padding: 22px 0;
+    border-radius: 6px;
+    p{
+        font-size: 14px;
+        color: black;
+        font-weight: 400;
+
+        a{
+            font-weight: 600;
+            color: var(--primary-button-color);
+        }
+    }
+}
+.get_app{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    p{
+        font-size: 14px;
+        color: black;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .app_download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        a{
+            img{
+                height: 40px;
+            }
+        }
+    }
+}

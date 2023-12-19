@@ -1,4 +1,5 @@
 import Auth from "../pages/Auth/Auth";
+import SignUp from "../pages/SignUp/SignUp";
 import Home from "../pages/home/Home";
 
 // public router
@@ -8,8 +9,12 @@ const publicRouter = [
         element: <Home />
     },
     {
-        path: '/',
+        path: '/auth',
         element: <Auth />
+    },
+    {
+        path: '/signup',
+        element: <SignUp />
     }
 ]
 

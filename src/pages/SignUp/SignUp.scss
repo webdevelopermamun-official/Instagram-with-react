@@ -1,0 +1,62 @@
+.signup_area{
+    padding: 12px 0 80px;
+    
+    
+    .sign_up_container{
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+
+        .signup_area_list{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: var(--border);
+            padding: 45px 40px 20px;
+            width: 100%;
+            border-radius: 6px;
+
+            .signup_logo_info{
+                p{
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 600;
+                    color: #737373;
+                    margin:  10px 0 15px;
+                }
+                .fb_login_button{
+                    color: #ffffff;
+                    background-color: #0095F6;
+                    display: block;
+                    font-size: 14px;
+                    line-height: 18px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    padding: 7px 16px;
+                    border-radius: 8px;
+                    .fb_logo{
+                        font-size: 100%;
+                        margin-right: 8px;
+                        position: relative;
+                        top: 3px;
+                        vertical-align: baseline;
+                        background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+                        background-repeat: no-repeat;
+                        background-position: -414px -300px;
+                        height: 16px;
+                        width: 16px;
+                        display: inline-block;
+                    }
+                    &:hover{
+                        background-color: rgb(24, 119, 242);
+                    }
+                }
+                img{
+                    width: 175px;
+                    height: 51px;
+                }
+            }
+        }
+    }
+}
